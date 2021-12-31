@@ -1,0 +1,25 @@
+Algoritmo em Portugol - Hora de Acordar
+1 - Ao acordar, abrir os olhos;
+2 - Levantar da cama;
+3 - Ir ao banheiro;
+4 - Escovar os dentes;
+5 - Tomar banho;
+6 - Voltar para o quarto;
+7 - Vestir a roupa para ir trabalhar;
+8 - Ir para o carro;
+9 - A porta da frente está aberta?
+    1 - Sim:
+        1 - Colocar a mão na maçaneta;
+        2 - Girar a maçaneta;
+        3 - Entrar no carro;
+        4 - Ligar o carro;
+        5 - Dirigir até o trabalho;
+    2 - Não:
+        1 - Colocar a chave na fechadura;
+        2 - Girar 360º;
+        3 - Colocar a mão na maçaneta;
+        4 - Girar a maçaneta;
+        5 - Entrar no carro;
+        6 - Ligar o carro;
+        7 - Dirigir até o trabalho;
+10 - Chegar no trabalho.
