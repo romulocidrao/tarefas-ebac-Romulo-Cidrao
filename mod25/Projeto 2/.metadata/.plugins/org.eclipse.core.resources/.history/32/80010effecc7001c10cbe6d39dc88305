@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package br.com.rcidrao.reflections.anotacao.cadastro.dao.generic;
+
+/**
+ * @author Rômulo
+ *
+ */
+public class SingletonMap {
+
+}

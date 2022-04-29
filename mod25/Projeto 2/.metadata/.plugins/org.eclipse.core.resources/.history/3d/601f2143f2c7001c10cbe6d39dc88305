@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package br.com.rcidrao.dao;
+
+import br.com.rcidrao.domain.Cliente;
+
+/**
+ * @author Rômulo
+ *
+ */
+public interface IClienteDAO {
+
+	Boolean salvar(Cliente cliente);
+	
+	Cliente buscarPorCPF(Long cpf);
+
+	void excluir(Long cpf);
+
+	void alterar(Cliente cliente);
+
+}

@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package br.com.rcidrao.services;
+
+import br.com.rcidrao.domain.Cliente;
+
+/**
+ * @author Rômulo
+ *
+ */
+public class ClienteService implements IClienteService {
+
+	@Override
+	public void salvar(Cliente cliente) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Cliente buscarPorCPF(Long cpf) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="org.junit.Assert"/>
+    <fullyQualifiedTypeName name="org.junit.Before"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.dao.IClienteDAO"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.dao.ClienteDAO"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Documented"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Target"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.exceptions.TipoChaveNaoEncontradaException"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.anotacao.TipoChave"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.reflections.anotacao.cadastro.domain.Persistente"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.reflections.anotacao.cadastro.dao.generic.IGenericDAO"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.reflections.anotacao.cadastro.dao.generic.GenericDAO"/>
+</qualifiedTypeNameHistroy>

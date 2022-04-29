@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\romul\Desktop\CursoEBAC\25\Projeto 2\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1744970825.index
+157724512.index
+3383703941.index
+795029471.index

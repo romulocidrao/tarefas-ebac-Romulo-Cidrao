@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+package br.com.rcidrao.services;
+
+import br.com.rcidrao.dao.ClienteDAO;
+import br.com.rcidrao.dao.IClienteDAO;
+import br.com.rcidrao.domain.Cliente;
+
+/**
+ * @author Rômulo
+ *
+ */
+public class ClienteService implements IClienteService {
+	
+	private IClienteDAO clienteDAO;
+	
+	public ClienteService(IClienteDAO clienteDAO) {
+		this.clienteDAO = clienteDAO;
+		
+	}
+
+	@Override
+	public void salvar(Cliente cliente) {
+		clienteDAO.salvar(cliente);
+
+	}
+
+	@Override
+	public Cliente buscarPorCPF(Long cpf) {
+		return clienteDAO.buscarPorCPF(cpf);
+	}
+
+}
