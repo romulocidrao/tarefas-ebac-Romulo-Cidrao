@@ -1,5 +1,0 @@
-package br.com.rcidrao.anotacao;
-
-public @interface TipoChave {
-
-}
