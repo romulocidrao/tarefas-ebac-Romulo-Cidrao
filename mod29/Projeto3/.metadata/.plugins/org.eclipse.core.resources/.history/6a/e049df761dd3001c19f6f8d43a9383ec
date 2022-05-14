@@ -1,0 +1,44 @@
+/**
+ * 
+ */
+package br.com.rcidrao;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+import br.com.rcidrao.dao.IProdutoDAO;
+import br.com.rcidrao.dao.ProdutoDAO;
+import br.com.rcidrao.domain.Produto;
+
+
+/**
+ * @author Rômulo
+ *
+ */
+public class ProdutoTest {
+	
+	@Test
+	public void cadastrarProdutoTest() throws Exception {
+		IProdutoDAO produtoDAO = new ProdutoDAO();
+		
+		Produto produto = new Produto();
+		produto.setCodigo("11");
+		produto.setNome("Margarina");
+		
+		Integer qtd = produtoDAO.inserir(produto);
+		assertTrue(qtd == 1);
+		
+		
+		Produto produtoBD = produtoDAO.buscar(produto.getCodigo());
+		assertNotNull(produtoBD);
+		assertNotNull(produtoBD.getId());
+		assertEquals(produto.getCodigo(), produtoBD.getCodigo());
+		assertEquals(produto.getNome(), produtoBD.getNome());
+		
+		Integer qtdDel = produtoDAO.excluir(produtoBD);
+		assertNotNull(qtdDel);
+	}
+
+}

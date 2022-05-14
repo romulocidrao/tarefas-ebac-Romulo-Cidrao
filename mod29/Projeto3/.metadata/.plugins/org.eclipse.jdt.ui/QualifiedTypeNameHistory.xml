@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.dao.ClienteDAO"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.dao.IClienteDAO"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.domain.Cliente"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.dao.jdbc.ConnectionFactory"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.dao.IProdutoDAO"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.dao.ProdutoDAO"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.domain.Produto"/>
+</qualifiedTypeNameHistroy>

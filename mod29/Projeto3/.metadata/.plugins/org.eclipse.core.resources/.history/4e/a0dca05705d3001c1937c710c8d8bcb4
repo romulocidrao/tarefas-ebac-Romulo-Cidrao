@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package br.com.rcidrao.dao;
+
+import br.com.rcidrao.domain.Cliente;
+
+/**
+ * @author Rômulo
+ *
+ */
+public interface IClienteDAO {
+	
+	public Integer cadastrar(Cliente cliente);
+
+	public Cliente consultar(String codigo);
+
+}

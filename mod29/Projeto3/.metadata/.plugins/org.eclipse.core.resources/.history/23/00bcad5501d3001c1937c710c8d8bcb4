@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+package br.com.rcidrao.dao;
+
+import br.com.rcidrao.domain.Cliente;
+
+
+public class ClienteDAO implements IClienteDAO{
+
+	@Override
+	public Integer cadastrar(Cliente cliente) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

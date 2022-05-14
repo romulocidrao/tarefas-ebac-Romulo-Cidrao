@@ -1,0 +1,46 @@
+/**
+ * 
+ */
+package br.com.rcidrao.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import br.com.rcidrao.dao.jdbc.ConnectionFactory;
+import br.com.rcidrao.domain.Cliente;
+
+
+public class ClienteDAO implements IClienteDAO{
+
+	@Override
+	public Integer cadastrar(Cliente cliente) throws Exception {
+		Connection connection = null;
+		PreparedStatement stm = null;
+		try {
+			connection = ConnectionFactory.getConnection();
+			String sql = "insert into tb_cliente(id, codigo, nome) values (nextval('sq_cliente'), ?, ?)";
+			stm = connection.prepareStatement(sql);
+			stm.setString(1, cliente.getCodigo());
+			stm.setString(2, cliente.getNome());
+			return stm.executeUpdate();
+		} catch (Exception e) {
+			throw e;
+		} finally {
+			if (stm != null && !stm.isClosed()) {
+				stm.close();
+			}
+			if (connection != null && !connection.isClosed()) {
+				connection.close();
+			}
+			
+		}
+
+	}
+
+	@Override
+	public Cliente consultar(String codigo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
