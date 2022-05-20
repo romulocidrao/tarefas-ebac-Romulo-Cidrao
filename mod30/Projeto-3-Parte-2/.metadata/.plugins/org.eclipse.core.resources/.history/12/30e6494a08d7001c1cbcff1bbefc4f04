@@ -1,5 +1,0 @@
-package br.com.rcidrao.dao;
-
-public class ClienteDaoMock {
-
-}
