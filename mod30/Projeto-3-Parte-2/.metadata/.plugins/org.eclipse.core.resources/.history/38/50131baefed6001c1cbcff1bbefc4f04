@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package br.com.rcidrao.dao.generic.jdbc;
+
+/**
+ * @author Rômulo
+ *
+ */
+public class ConnectionFactory {
+
+}

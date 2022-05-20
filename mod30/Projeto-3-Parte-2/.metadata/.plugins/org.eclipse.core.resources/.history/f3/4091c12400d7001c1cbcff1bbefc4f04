@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package br.com.rcidrao.services;
+
+/**
+ * @author Rômulo
+ *
+ */
+public interface IProdutoService {
+
+}

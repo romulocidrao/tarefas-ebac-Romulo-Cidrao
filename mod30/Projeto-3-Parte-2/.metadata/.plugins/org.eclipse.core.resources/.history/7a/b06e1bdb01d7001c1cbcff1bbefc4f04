@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package br.com.rcidrao.dao;
+
+/**
+ * @author Rômulo
+ *
+ */
+public interface IClienteDAO extends IGenericDAO<Cliente, Long> {
+
+
+}
