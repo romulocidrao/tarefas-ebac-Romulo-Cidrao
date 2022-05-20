@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package br.com.rcidrao.dao.factory;
+
+/**
+ * @author Rômulo
+ *
+ */
+public class VendaFactory {
+
+}

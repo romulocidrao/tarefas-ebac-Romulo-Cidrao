@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package br.com.rcidrao.exceptions;
+
+/**
+ * @author Rômulo
+ *
+ */
+public class TipoElementoNaoConhecidoException {
+
+}
