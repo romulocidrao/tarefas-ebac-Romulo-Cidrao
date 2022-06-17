@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package br.com.rcidrao.domain.jpa;
+
+/**
+ * @author Rômulo
+ *
+ */
+public class ClienteJpa {
+
+}

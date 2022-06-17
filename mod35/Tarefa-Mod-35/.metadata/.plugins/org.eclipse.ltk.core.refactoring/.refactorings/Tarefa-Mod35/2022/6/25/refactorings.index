@@ -1,0 +1,16 @@
+1655474524319	Move compilation unit
+1655474697725	Rename package 'br.com.rcidrao.dao.generic.jpa'
+1655474708096	Rename package 'br.com.rcidrao.dao.generic.jdbc'
+1655474836703	Rename package 'br.com.rcidrao.dao.gneric.jdbc'
+1655474843046	Rename package 'br.com.rcidrao.dao.gneric.jpa'
+1655474957659	Rename package 'br.com.rcidrao.dao.generic.jpa'
+1655474965121	Rename package 'br.com.rcidrao.dao.generic.jdbc'
+1655474973711	Rename package 'br.com.rcidrao.dao.generic'
+1655474983738	Rename package 'br.com.rcidrao.dao.factory'
+1655475226304	Rename package 'br.com.rcidrao.dao1.factory'
+1655475232354	Rename package 'br.com.rcidrao.dao1.generic'
+1655475238690	Rename package 'br.com.rcidrao.dao1.generic.jdbc'
+1655475245419	Rename package 'br.com.rcidrao.dao1.generic.jpa'
+1655476770783	Delete element
+1655479349717	Rename package 'exceptions'
+1655479361184	Rename package 'services'

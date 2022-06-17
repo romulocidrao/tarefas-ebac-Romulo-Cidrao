@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package exceptions;
+
+/**
+ * @author Rômulo
+ *
+ */
+public class TipoElementoNaoConhecidoException {
+
+}

@@ -1,0 +1,23 @@
+INDEX VERSION 1.131+C:\Users\romul\Desktop\CursoEBAC\35\Tarefa-Mod-35\.metadata\.plugins\org.eclipse.jdt.core
+957047988.index
+4000751077.index
+1744970825.index
+795029471.index
+1865797976.index
+892046535.index
+1721740860.index
+321572666.index
+3383703941.index
+3263099435.index
+2021404682.index
+1817927921.index
+674060462.index
+244684745.index
+4207046838.index
+1271613739.index
+4148662635.index
+1455063061.index
+3477040666.index
+4228530013.index
+712511446.index
+733528016.index

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package br.com.rcidrao.dao;
+
+/**
+ * @author Rômulo
+ *
+ */
+public class ClienteDaoMock {
+
+}

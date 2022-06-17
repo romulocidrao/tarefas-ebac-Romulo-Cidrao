@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package services;
+
+/**
+ * @author Rômulo
+ *
+ */
+public interface IClienteService {
+
+}

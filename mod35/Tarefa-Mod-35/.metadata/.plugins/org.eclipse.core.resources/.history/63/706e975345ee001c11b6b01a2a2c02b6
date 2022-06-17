@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package anotacao;
+
+/**
+ * @author Rômulo
+ *
+ */
+public interface TipoChave {
+
+}
