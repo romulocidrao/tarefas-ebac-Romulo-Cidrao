@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package br.com.rcidrao.dao.jpa;
+
+/**
+ * @author Rômulo
+ *
+ */
+public class ProdutoJpaDAO extends GenericJpaDB1DAO<ProdutoJpa, Long> implements IProdutoJpaDAO {
+
+	public ProdutoJpaDAO() {
+		super(ProdutoJpa.class);
+	}
+
+}

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package br.com.rcidrao.dao.generic.jpa;
+
+/**
+ * @author Rômulo
+ *
+ */
+public class GenericJpaDB1DAO {
+
+}

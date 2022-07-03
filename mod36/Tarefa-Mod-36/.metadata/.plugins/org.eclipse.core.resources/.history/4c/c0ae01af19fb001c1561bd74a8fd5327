@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package br.com.rcidrao.services.generic.jpa;
+
+/**
+ * @author Rômulo
+ *
+ */
+public interface IGenericJpaService {
+
+}

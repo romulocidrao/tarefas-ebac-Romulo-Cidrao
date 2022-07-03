@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="br.com.rcidrao.dao.generic.jpa.GenericJpaDB2DAO"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.dao.generic.jpa.GenericJpaDB3DAO"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.dao.generic.jpa.IGenericJapDAO"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.domain.jpa.Persistente"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.dao.generic.jpa.GenericJpaDB1DAO"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.dao.jpa.ClienteJpaDAO"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.domain.jpa.ClienteJpa2"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.dao.jpa.IVendaJpaDAO"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.dao.jpa.IClienteJpaDAO"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.dao.jpa.IProdutoJpaDAO"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.domain.jpa.ClienteJpa"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.domain.jpa.ProdutoJpa"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.dao.jpa.VendaJpaDAO"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.dao.VendaExclusaoJpaDAO"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.dao.jpa.ProdutoJpaDAO"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.exception.TipoChaveNaoEncontradaException"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.exception.MaisDeUmRegistroException"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.exception.TableException"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.exception.DAOException"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.domain.jpa.VendaJpa"/>
+    <fullyQualifiedTypeName name="br.com.rcidrao.domain.jpa.VendaJpa.Status"/>
+</qualifiedTypeNameHistroy>

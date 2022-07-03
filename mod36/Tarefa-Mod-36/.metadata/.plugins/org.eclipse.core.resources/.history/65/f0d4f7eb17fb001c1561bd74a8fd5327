@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package br.com.rcidrao.exception;
+
+/**
+ * @author Rômulo
+ *
+ */
+public class TableException {
+
+}
