@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package br.com.rcidrao.vendas.online.usecase;
+
+/**
+ * @author Rômulo
+ *
+ */
+public class CadastroCliente {
+
+}

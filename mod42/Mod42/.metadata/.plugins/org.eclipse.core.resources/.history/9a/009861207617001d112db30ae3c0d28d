@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package br.com.rcidrao.vendas.onlineconfig;
+
+/**
+ * @author Rômulo
+ *
+ */
+public class ValidatorConfig {
+
+}

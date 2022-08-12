@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package br.com.rcidrao.vendas.online.domain;
+
+/**
+ * @author Rômulo
+ *
+ */
+public class Produto {
+
+}

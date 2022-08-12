@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package br.com.rcidrao.vendas.online.resources;
+
+/**
+ * @author Rômulo
+ *
+ */
+public class ClienteResource {
+
+}

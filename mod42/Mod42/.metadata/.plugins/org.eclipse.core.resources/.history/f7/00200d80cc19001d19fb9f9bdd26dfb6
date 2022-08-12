@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package br.com.rcidrao.vendas.online.repository;
+
+/**
+ * @author Rômulo
+ *
+ */
+public class IProdutoRepository {
+
+}

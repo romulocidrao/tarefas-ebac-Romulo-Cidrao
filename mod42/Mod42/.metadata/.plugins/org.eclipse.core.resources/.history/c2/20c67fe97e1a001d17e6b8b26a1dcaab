@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package br.com.rcidrao.vendas.online.service;
+
+/**
+ * @author Rômulo
+ *
+ */
+public class RestRequest {
+
+}
