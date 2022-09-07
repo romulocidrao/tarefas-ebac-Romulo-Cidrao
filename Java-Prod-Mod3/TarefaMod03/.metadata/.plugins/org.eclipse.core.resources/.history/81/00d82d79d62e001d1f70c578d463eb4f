@@ -1,0 +1,61 @@
+/**
+ * 
+ */
+package br.com.rcidrao;
+
+/**
+ * @author Rômulo
+ *
+ */
+public class AlgoritmoGuloso {
+
+	// Função para encontrar o número mínimo de moedas necessárias
+    // para obter um total de `target` do conjunto `S`
+    public static int findMinCoins(int[] S, int target)
+    {
+        // se o total for 0, nenhuma moeda é necessária
+        if (target == 0) {
+            return 0;
+        }
+ 
+        // retorna infinito se total ficar negativo
+        if (target < 0) {
+            return Integer.MAX_VALUE;
+        }
+ 
+        // inicializa o número mínimo de moedas necessárias para o infinito
+        int coins = Integer.MAX_VALUE;
+ 
+        // faz para cada moeda
+        for (int c: S)
+        {
+            // retorna para ver se o total pode ser alcançado incluindo a moeda atual `c`
+            int result = findMinCoins(S, target - c);
+ 
+            // atualiza o número mínimo de moedas necessárias se escolher o atual
+            // moeda resultou em uma solução
+            if (result != Integer.MAX_VALUE) {
+                coins = Integer.min(coins, result + 1);
+            }
+        }
+ 
+        // retorna o número mínimo de moedas necessárias
+        return coins;
+    }
+ 
+    public static void main(String[] args)
+    {
+        // moedas de determinadas denominações
+        int[] S = { 1, 2, 5 };
+ 
+        // mudança total necessária
+        int target = 18;
+ 
+        int coins = findMinCoins(S, target);
+        if (coins != Integer.MAX_VALUE)
+        {
+            System.out.print("The minimum number of coins required to get the " +
+                    "desired change is " + coins);
+        }
+    }
+}

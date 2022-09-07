@@ -1,0 +1,44 @@
+/**
+ * 
+ */
+package br.com.rcidrao;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+/**
+ * @author Rômulo
+ *
+ */
+public class Backtracking {
+
+	    // Função para gerar o conjunto de potência de um determinado conjunto `S`
+	    public static void findPowerSet(int[] S, Deque<Integer> set, int n)
+	    {
+	        // se consideramos todos os elementos
+	        if (n == 0)
+	        {
+	            System.out.println(set);
+	            return;
+	        }
+	 
+	        // considera o enésimo elemento
+	        set.addLast(S[n - 1]);
+	        findPowerSet(S, set, n - 1);
+	 
+	        set.removeLast();                    // retroceder
+	 
+	        // ou não considera o enésimo elemento
+	        findPowerSet(S, set, n - 1);
+	    }
+	 
+	    public static void main(String[] args)
+	    {
+	        int[] S = { 1, 2, 3 };
+	 
+	        Deque<Integer> set = new ArrayDeque<>();
+	        findPowerSet(S, set, S.length);
+	    }
+	}
+
+	
